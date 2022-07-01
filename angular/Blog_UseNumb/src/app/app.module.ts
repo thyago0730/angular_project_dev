@@ -14,7 +14,8 @@ import { ErrorPageComponent } from './pages/error-page/error-page.component';
 
 import { BlogService } from './providers/blog.service';
 import { HeaderComponent } from './components/header/header.component';
-import { PostCardComponent } from './components/post-card/post-card.component'
+import { PostCardComponent } from './components/post-card/post-card.component';
+import { PostsComponent } from './components/posts/posts.component'
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PostCardComponent } from './components/post-card/post-card.component'
     PostPageComponent,
     ErrorPageComponent,
     HeaderComponent,
-    PostCardComponent
+    PostCardComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
